@@ -1,0 +1,13 @@
+body {
+  background-color: lightblue;
+}
+
+
+.question{
+  width: 500px;
+  height: 150px;
+  background-color: navy;
+  border: 1px solid lime;
+  border-radius: 10px;
+
+}
