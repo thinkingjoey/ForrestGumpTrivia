@@ -5,9 +5,15 @@ h1 {
   font-family: 'Handlee', cursive;
   font-weight: 400;
 }
-p{
+#questionBox{
   text-align: left;
-  margin-left: 10px;
+  padding: 1em;
+}
+p{
+  text-align: center;
+  font-family: 'Handlee', cursive;
+  margin-top: 10px;
+  font-size: 20px;
 }
 .picture {
   background-color: white;
@@ -26,7 +32,7 @@ img {
 .question {
   background-color: white;
   width: 610px;
-  height: 50px;
+  height: 100px;
   margin-bottom: 5px;
   border-radius: 10px;
   border: 2px solid #008CBA;
@@ -35,11 +41,12 @@ img {
 #a, #b, #c, #d {
   background-color: white;
   width: 300px;
-  height: 80px;
+  height: 40px;
   display: inline-block;
   ;
   border-radius: 10px;
   border: 2px solid #008CBA;
+  margin-bottom: 5px;
 }
 button {
   background-color: #008CBA;
