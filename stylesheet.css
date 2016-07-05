@@ -1,18 +1,21 @@
 body {
-  background-color: lightblue;
+  background-color: white;
 }
 h1 {
   font-family: 'Handlee', cursive;
   font-weight: 400;
 }
+
 #questionBox{
   text-align: left;
-  padding: 1em;
+  padding: 5px;
 }
+
 p{
-  text-align: center;
+  text-align: left;
   font-family: 'Handlee', cursive;
   margin-top: 10px;
+  margin-left: 10px;
   font-size: 20px;
 }
 .picture {
@@ -25,23 +28,21 @@ p{
   border: 2px solid #008CBA;
 }
 img {
-  width: 610px;
+  width: 710px;
   height: 300px;
   border-radius: 10px;
 }
 .question {
-  background-color: white;
-  width: 610px;
+  width: 710px;
   height: 100px;
   margin-bottom: 5px;
   border-radius: 10px;
   border: 2px solid #008CBA;
 }
 
-#a, #b, #c, #d {
-  background-color: white;
-  width: 300px;
-  height: 40px;
+#box1, #box2, #box3, #box4 {
+  width: 350px;
+  height: 60px;
   display: inline-block;
   ;
   border-radius: 10px;
