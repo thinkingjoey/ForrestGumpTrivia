@@ -196,7 +196,7 @@ $('#ask').click(function(e) {
 
 // var correct=everything[i].correct[0];
 // if $('#a, #b, #c, #d').text()[0]==correct{
-//   //do nothing
+//  };
 // }
 // else{
 //   Math.floor((Math.random()
