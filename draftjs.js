@@ -17,12 +17,14 @@
 //     "What does Jenny pray that God will turn her into?",
 //     //question3
 //     "What is the name of Forrest's home town?",
-//     //question4
+//     **//question4
 //     "With every transition of Forrest's age, one thing remains the same-in the first scene of each transition he wears a_.",
 //     //question5
 //     "Jenny asks Forrest, do you ever dream, Forrest, about who you're gonna be? Forrest replies_",
+
 //     //question6
 //     "Forrest says to Jenny, I am not a smart man. But_",
+
 //     //question7
 //     "What did Forrest say when Lieutenant Dan asks him if he found Jesus yet?",
 //     //question8
@@ -205,4 +207,35 @@
 // $('button').click(function(){
 //   for(i=0;i<allQuestions.length;i++)
 //   $('#questionBox').text(allQuestions[i])
+// });
+
+
+// var i = 0;
+// $('#next').click(function change(){
+// if (i< everything.length) {
+//   $('#questionBox').text( "Question: "+ everything[i].question);
+//   $('#a').text("A: "+ everything[i].A);
+//   $('#b').text("B: "+ everything[i].B);
+//   $('#c').text("C: "+ everything[i].C);
+//   $('#d').text("D: "+ everything[i].D);
+//   i=i+1;
+// }
+// });
+//
+// change()
+//
+//
+// $('#a, #b, #c, #d').click(function(e){
+// var correct = everything[i].correct
+// var clickedAnswer = $(this).text()[0]
+// if (correct == clickedAnswer) {
+//   $('#level' + i).css("background-color","green")
+// }
+// else {
+//   console.log("wrong answer")
+// }
+// //
+// //   if ($(this) == everything[i].correct) {
+// //     $('#level1').css("background-color","green");
+// // }
 // });

@@ -15,7 +15,9 @@ var everything = [
     B: "Moon River",
     C: "Blowin in the wind",
     D: "Tears in heaven",
-    correct: "C"
+    correct: "C",
+    wrongOne: "",
+    wrongTwo: ""
   },
   //$200
   {
@@ -73,7 +75,7 @@ var everything = [
   },
   // $8,000
   {
-    question: "What did Forrest say when Lieutenant Dan asks him if he found Jesus yet?",
+    question: "What does Forrest say when Lieutenant Dan asks him if he found Jesus yet?",
     A: "Jesus is always in my heart",
     B: "I don't know where Jesus is",
     C: "I didn't know I was supposed to be looking for him",
@@ -136,16 +138,15 @@ var everything = [
   }, {
     //one million
     question: "When Forrest gets up to talk at the Vietnam rally, the mic was unplugged. According to Tom Hanks, what did he say?",
-    A: "...My best friend died in Vietnam.",
-    B: "...Sometimes they don't go home at all. That's a bad thing.",
-    C: "...I got shot. I thought I'd never seem my mama again.",
-    D: "...No more wars. No more violence.",
+    A: "...My best friend died in Vietnam...",
+    B: "...Sometimes they don't go home at all. That's a bad thing...",
+    C: "...I got shot. I thought I'd never see my mama again...",
+    D: "...No more wars. No more violence...",
     correct: "B"
   }
 ];
 
 var i = 0;
-
 function draw() {
   if (i < everything.length) {
     $('#questionBox').text("Question: " + everything[i].question);
@@ -163,65 +164,51 @@ draw();
 //   draw();
 // });
 
-
 //move to next question when it's correct
 $('#a, #b, #c, #d').click(function(e) {
-  var correct = everything[i].correct[0];
+  var correct = everything[i].correct;
   var clickedAnswer = $(this).text()[0];
   if (correct == clickedAnswer) {
     $('#level' + i).css("background-color", "green");
-    i++
+    i++;
     draw();
   } else {
-    alert("game over");
+    alert("Game over. "+"You won "+ $('#level' + (i-1)).text());
   }
 });
 
 //ask your friend-Google
 $('#ask').click(function(e) {
-  var search=$('#questionBox').text();
+  var search = $('#questionBox').text();
   window.open("http://google.com/?gws_rd=ssl#q=" + search);
-  $('#ask').css("display","none")
+  $('#ask').css("display", "none")
 });
 
-// startPage,addclass('hide')
 
 //50/50
-// check all #a, #b, #c, #d,
-// check for correct answer
-// if it's a correct answer -> do nothing
-//if it's wrong answer-> random[]
-//.css(hide)
+$('#half').click(function(e) {
+      var correct = everything[i].correct;
+      var a = $('#a').text()[0];
+      var b = $('#b').text()[0];
+      var c = $('#c').text()[0];
+      var d = $('#d').text()[0];
+      //one correct, one wrong
+      var half = [];
+      var choices = [a, b, c, d];
+      //get the index of the correct answer
+      var index =choices.indexOf(correct);
+      //put the correct one into the half array
+      half.push(choices[index]);
+      //the choices array are left with 3 wrong answers
+      choices.splice(index,1);
+      //get a random wrong answer from the choices array
+      var randWrong=Math.floor(Math.random()*choices.length);
+      //push this wrong choice into half array
+      half.push(choices[randWrong]);
+      //style them
+      console.log(half);
+      $('#a,#b,#c,#d').hide();
+      $(("#"+half[0]).toLowerCase()).show();
+      $(("#"+half[1]).toLowerCase()).show();
 
-
-// var correct=everything[i].correct[0];
-// if $('#a, #b, #c, #d').text()[0]==correct{
-//  };
-// }
-// else{
-//   Math.floor((Math.random()
-// }
-
-
-$('.choice').each(function (index, element){
-  console.log(index, $(element).html())
-})
-
-// console.log($('.choice#a').text())
-console.log('doing this one by one')
-
-console.log($('#a').text())
-console.log($('#b').text())
-console.log($('#c').text())
-console.log($('#d').text())
-
-
-
-
-
-
-//
-// if ($(this) == everything[i].correct) {
-//   $('#level1').css("background-color", "green");
-//
-// });
+});

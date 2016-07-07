@@ -1,9 +1,12 @@
 body {
-  background-color: white;
+  /*background-color: white;*/
+  /*background-image: url("http://www.bansama.com/blog/wp-content/uploads/2014/07/2014-07-07_00022-1038x576.jpg");*/
+  /*background-repeat: no-repeat;*/
 }
 h1 {
   font-family: 'Handlee', cursive;
   font-weight: 400;
+  text-align: center;
 }
 
 #questionBox{
@@ -43,6 +46,7 @@ img {
   width:60%;
 }
 #sidebarWrap{
+  margin-top: 3%;
   width:25%;
   float:left;
 }
@@ -57,7 +61,7 @@ img {
 
 #a, #b, #c, #d{
   width: 34%;
-  height: 60px;
+  height: 50px;
   display: inline-block;
   border-radius: 10px;
   border: 2px solid #008CBA;
