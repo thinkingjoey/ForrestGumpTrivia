@@ -9,6 +9,7 @@ $("#a,#b,#c,#d").hover(function() {
 var everything = [
   //$100
   {
+    // picture:"<img src="images/q1.gif">",
     question: "What song does Jenny sing in the nightclub?",
     A: "Someone like you",
     B: "Moon River",
@@ -144,6 +145,7 @@ var everything = [
 ];
 
 var i = 0;
+
 function draw() {
   if (i < everything.length) {
     $('#questionBox').text("Question: " + everything[i].question);
@@ -151,30 +153,70 @@ function draw() {
     $('#b').text("B: " + everything[i].B);
     $('#c').text("C: " + everything[i].C);
     $('#d').text("D: " + everything[i].D);
+    // $('#picture').append(everything[i].picture);
   }
 }
 draw();
 
-$('#next').click(function() {
-  i=i+1
-  draw();
-});
+// $('#next').click(function() {
+//   i++
+//   draw();
+// });
 
 
+//move to next question when it's correct
 $('#a, #b, #c, #d').click(function(e) {
   var correct = everything[i].correct[0];
   var clickedAnswer = $(this).text()[0];
   if (correct == clickedAnswer) {
     $('#level' + i).css("background-color", "green");
+    i++
+    draw();
   } else {
-    console.log("game over");
-  }}
-);
+    alert("game over");
+  }
+});
 
-// $('#half').click(function(e){
-//
+//ask your friend-Google
+$('#ask').click(function(e) {
+  var search=$('#questionBox').text();
+  window.open("http://google.com/?gws_rd=ssl#q=" + search);
+  $('#ask').css("display","none")
+});
+
+// startPage,addclass('hide')
+
+//50/50
+// check all #a, #b, #c, #d,
+// check for correct answer
+// if it's a correct answer -> do nothing
+//if it's wrong answer-> random[]
+//.css(hide)
+
+
+// var correct=everything[i].correct[0];
+// if $('#a, #b, #c, #d').text()[0]==correct{
+//   //do nothing
 // }
-// )
+// else{
+//   Math.floor((Math.random()
+// }
+
+
+$('.choice').each(function (index, element){
+  console.log(index, $(element).html())
+})
+
+// console.log($('.choice#a').text())
+console.log('doing this one by one')
+
+console.log($('#a').text())
+console.log($('#b').text())
+console.log($('#c').text())
+console.log($('#d').text())
+
+
+
 
 
 

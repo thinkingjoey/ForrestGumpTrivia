@@ -27,12 +27,12 @@ img {
   border-radius: 10px;
   border: 2px solid #008CBA;
   width: 70%;
-  height: 200px;
+  height: 250px;
 
 }
 .question {
-  width: 70%;
-  height: 100px;
+  width: 69%;
+  height: 150px;
   margin-bottom: 5px;
   border-radius: 10px;
   border: 2px solid #008CBA;
@@ -44,14 +44,18 @@ img {
 }
 #sidebarWrap{
   width:25%;
-  height: 600px;
   float:left;
 }
 
 .sidebar{
   border: 1px solid #008CBA;
-  font-size: 30px;
+  font-size: 1em;
   border-radius: 10px;
+  font-family: 'Handlee', cursive;
+}
+
+.row1, .row2{
+  height:50%;
 }
 
 #a, #b, #c, #d{
@@ -61,13 +65,12 @@ img {
   border-radius: 10px;
   border: 2px solid #008CBA;
   font-family: 'Handlee', cursive;
-  font-size: 20px;
-
+  font-size: 18px;
+  text-align: center;
 }
 
-#half, #ask{
+#half, #ask, #hint{
   width: 20%;
-  height: 30px;
   display: inline-block;
   border-radius: 10px;
   border: 2px solid #008CBA;
