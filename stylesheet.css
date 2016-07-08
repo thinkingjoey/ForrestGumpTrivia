@@ -1,82 +1,127 @@
 body {
-  /*background-color: white;*/
-  /*background-image: url("http://www.bansama.com/blog/wp-content/uploads/2014/07/2014-07-07_00022-1038x576.jpg");*/
-  /*background-repeat: no-repeat;*/
+/*background image credit:
+http://meritandfork.com/*/
+  opacity: .9.5;
+  background-image:url("http://meritandfork.com/wp-content/uploads/2015/01/sculpture-garden-process-1-1024x671.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#welcome {
+  position: absolute;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 50%;
+  height: 40%;
+  background-color: MistyRose;
+  box-shadow: 3px 3px 3px grey;
+  opacity: .9;
+  border-radius: 20px;
+  z-index: 1;
+}
+
+#gameOver{
+  position: absolute;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 50%;
+  height: 40%;
+  background-color: MistyRose;
+  box-shadow: 3px 3px 3px grey;
+  opacity: .9;
+  border-radius: 20px;
+  z-index: 2;
+  display:none;
+}
+.popBox {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 20px;
+}
+button{
+  background-color: white;
+  opacity: .8;
+  border-radius: 10px;
 }
 h1 {
-  font-family: 'Handlee', cursive;
+  font-family: 'Sigmar One', cursive;
   font-weight: 400;
   text-align: center;
 }
 
-#questionBox{
+p {
   text-align: left;
-  padding: 5px;
-  width:70%;
-
-}
-
-p{
-  text-align: left;
-  font-family: 'Handlee', cursive;
+  font-family: 'Nunito', sans-serif;
   margin-top: 10px;
-  margin-left: 10px;
+  margin-left: 15px;
   font-size: 20px;
-
 }
-img {
+
+.picture {
   background-color: white;
-  margin-bottom: 5px;
+  margin-bottom: 1%;;
+  margin-left: 3%;
   border-radius: 10px;
   border: 2px solid #008CBA;
   width: 70%;
-  height: 250px;
-
+  height: 18em;
+  background-position: center;
+  /*background-size: contain;*/
+  background-repeat: no-repeat;
+  background-size: 100% 18em;
 }
 .question {
-  width: 69%;
-  height: 150px;
+  width: 82%;
+  height: 100px;
   margin-bottom: 5px;
   border-radius: 10px;
-  border: 2px solid #008CBA;
-
+  border: 2px solid skyblue;
+  background-color: white;
+  opacity: .8;
 }
-#wrapper{
+#wrapper {
   float: left;
-  width:60%;
+  width: 75%;
 }
-#sidebarWrap{
-  margin-top: 3%;
-  width:25%;
-  float:left;
+#sidebarWrap {
+  width: 20%;
+  float: left;
+  border-radius: 10px;
+  background-color: skyblue;
 }
-
-.sidebar{
-  border: 1px solid #008CBA;
+.sidebar {
   font-size: 1.2em;
   border-radius: 10px;
   font-family: 'Handlee', cursive;
+  border-bottom: 1px solid white;
 }
-
-
-#a, #b, #c, #d{
-  width: 34%;
-  height: 50px;
-  display: inline-block;
+#a, #b, #c, #d {
+  width: 40%;
+  height: 3em;
+  display: inline-table;
+  border-radius: 10px;
+  border: 2px solid white;
+  margin-bottom: 2px;
+  font-family: 'Kalam', cursive;
+  font-size: 18px;
+  border: 3px solid skyblue;
+  background-color: white;
+  opacity: .9;
+  font-weight: bold;
+}
+.lifeline, #restart{
+  padding-top: 1%;
+  width: 11%;
+  height:50px;
+  display: inline-table;
   border-radius: 10px;
   border: 2px solid #008CBA;
-  font-family: 'Handlee', cursive;
-  font-size: 1em;
-  text-align: center;
-}
-
-#half, #ask, #hint{
-  width: 22%;
-  display: inline-block;
-  border-radius: 10px;
-  border: 2px solid #008CBA;
-  font-family: 'Handlee', cursive;
+  font-family: 'Sigmar One', cursive;
   font-size: 20px;
   text-align: center;
   margin-bottom: 5px;
+  background-color: white;
+  opacity: .8;
 };
