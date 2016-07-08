@@ -228,7 +228,7 @@ $('#half').click(function(e) {
   var index = choices.indexOf(correct);
   //put the correct one into the half array
   half.push(choices[index]);
-  //the choices array are left with 3 wrong answers
+  //the choices array contains 3 wrong answers
   choices.splice(index, 1);
   //get a random wrong answer from the choices array
   var randWrong = Math.floor(Math.random() * choices.length);
