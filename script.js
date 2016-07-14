@@ -178,6 +178,7 @@ function draw() {
     $('#c').text("C: " + everything[i].C);
     $('#d').text("D: " + everything[i].D);
     $('.picture').css("background-image", "url(" + everything[i].picture + ")");
+    $('#a,#b,#c,#d').show();
   }
 }
 draw();
