@@ -168,8 +168,9 @@ $("#a,#b,#c,#d").hover(function() {
   $(this).css("background-color", "white");
 });
 
-//chnage question & choices
+//chnage questions & choices
 var i = 0;
+var score=i;
 function draw() {
   if (i < everything.length) {
     $('#questionBox').text("Question: " + everything[i].question);
@@ -183,8 +184,8 @@ function draw() {
 }
 draw();
 
-//correct click, then move to next question
-//wrong click, alert game over
+//correct click, then move to next question, level up
+
 $('#a, #b, #c, #d').click(function(e) {
   var correct = everything[i].correct;
   var clickedAnswer = $(this).text()[0];
@@ -192,15 +193,24 @@ $('#a, #b, #c, #d').click(function(e) {
     $('#level' + i).css("background-color", "green");
     $('#level' +(i-1)).css("background-color", "skyblue");
     i++;
+    score++;
     draw();
   }
+  //wrong click, alert game over
     else {
     $('#gameOver').show();
     $('#prize').text("Game over. " + "You won " + $('#level' + (i - 1)).text());
-    // alert("Game over. " + "You won " + $('#level' + (i - 1)).text());
   }
 });
 
+//congratz message if win $1 million
+  function win(){
+    if (score==15){
+      $('#gameOver').show();
+      $('#prize').text("You are a true fan!");
+    }
+  };
+  win();
 
 //restart button
 $('#restart').click(function(e) {
