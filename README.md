@@ -9,15 +9,13 @@
 ####To make it more fun, this is a dynamic quiz modeled after the TV show "Who Wants to be a Millionaire".
 ####The awesome part of it is that you won't win any real money! 
 
-#Rules:
+##Rules:
 ####There are 15 questions.
 ####Each question is presented in multiple choice format. Only one is the correct answer.
 ####There are two 'lifelines'. Each lifeline can only be used once. 
 #####(1) 50/50	The computer will randomly remove two incorrect answers.
 #####(2) Ask your best friend *Google*. The current question will be automatically entered in the google search field as the key words.
 
-###If the player picks the correct answer, the player will see the corresponding *level* lights up. 
-###If the player picks a wrong answer, the player will see the total amount of *cash* he/she wins.
 ###Here are the levels, inspired by TV show "Who Wants to be a Millionaire":
 #####Q15-$1 Million
 #####Q14-$500,000
@@ -35,7 +33,7 @@
 #####Q2-$200
 #####Q1-$100
 
-#lists and explanations of the technologies used 
+##Lists and explanations of the technologies used 
 
 ###HTML
 ###CSS
