@@ -6,15 +6,15 @@
 
 
 #Welcome to "The Ultimate Forrest Gump Movie Trivia"! 
-##To make it more fun, this is a quiz game modeled after the TV show "Who Wants to be a Millionaire".
-##The awesome part of it is that you won't win any money!
+####To make it more fun, this is a quiz game modeled after the TV show "Who Wants to be a Millionaire".
+####The awesome part of it is that you won't win any money!
 
 #Rules:
-###There are 15 questions.
-##Each question is presented in multiple choice format. One of the four choices is the correct answer
-##If you need help, there are two 'lifelines'. Each lifeline can only be used once. 
-###(1) 50/50	The computer will randomly remove two incorrect answers, leaving the correct answer and one incorrect answer.
-###(2) Ask your best friend. Your best friend Google will help you to pick the right answer.
+####There are 15 questions.
+####Each question is presented in multiple choice format. One of the four choices is the correct answer
+####If you need help, there are two 'lifelines'. Each lifeline can only be used once. 
+####(1) 50/50	The computer will randomly remove two incorrect answers, leaving the correct answer and one incorrect answer.
+####(2) Ask your best friend. Your best friend Google will help you to pick the right answer.
 
 #Here are the levels:
 ###Q15-$1 Million
@@ -35,8 +35,8 @@
 
 #lists and explanations of the technologies used (Technologies)
 
-##HTML
-##CSS
-##JavaScript
-##jQuery
+###HTML
+###CSS
+###JavaScript
+###jQuery
 
