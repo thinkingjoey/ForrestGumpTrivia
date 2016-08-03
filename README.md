@@ -16,6 +16,8 @@
 #####(1) 50/50	The computer will randomly remove two incorrect answers.
 #####(2) Ask your best friend *Google*. The current question will be automatically entered in the google search field as the key words.
 
+###If the player picks the correct answer, the player will see the corresponding *level* lights up. 
+###If the player picks a wrong answer, the player will see the total amount of *cash* he/she wins.
 ###Here are the levels, inspired by TV show "Who Wants to be a Millionaire":
 #####Q15-$1 Million
 #####Q14-$500,000
