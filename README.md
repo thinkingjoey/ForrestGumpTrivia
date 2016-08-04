@@ -6,7 +6,7 @@
 !["Forrest Gump eating icecream"](http://forrestgump.com/wp-content/uploads/2014/12/forrest-gump1__140605215604.png) 
 
 #Welcome to "The Ultimate Forrest Gump Movie Trivia"! 
-####To make it more fun, this is a dynamic quiz modeled after the TV show "Who Wants to be a Millionaire".
+####To make it more fun, this is a dynamic quiz inspired by the TV show "Who Wants to be a Millionaire".
 ####The awesome part of it is that you won't win any real money! 
 
 ##Rules:
