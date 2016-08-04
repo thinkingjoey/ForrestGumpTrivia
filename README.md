@@ -11,7 +11,7 @@
 
 ##Rules:
 ####There are 15 questions.
-####Each question is presented in multiple choice format. Only one is the correct answer.
+####Each question is presented in multiple choice format.
 ####There are two 'lifelines'. Each lifeline can only be used once. 
 #####(1) 50/50	The computer will randomly remove two incorrect answers.
 #####(2) Ask your best friend *Google*. The current question will be automatically entered in the google search field as the key words.
