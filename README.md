@@ -1,13 +1,16 @@
-!["Forrest Gump eating icecream"](http://forrestgump.com/wp-content/uploads/2014/12/forrest-gump1__140605215604.png) 
+!["Forrest Gump eating icecream"](http://forrestgump.com/wp-content/uploads/2014/12/forrest-gump1__140605215604.png)
 
-#Welcome to "The Ultimate Forrest Gump Movie Trivia"! 
-####To make it more fun, this is a dynamic quiz modeled after the TV show "Who Wants to be a Millionaire".
-####The awesome part of it is that you won't win any real money! 
+#Welcome to "The Ultimate Forrest Gump Movie Trivia"!
+
+!["screenshot of the game"](images/ScreenShot.png)
+####I built this project in a one week sprint with the skills that I learned in the first two weeks of the web development course. I was able to build an interactive quiz on Forrest Gump movie using HTML, CSS, JavaScript and jQuery. I chose this project because I wanted to learn how to make a fun interactive quiz for my trainees when I was working at my previous job as a training coordinator. I sympathized with my trainees when they have to memorize hundreds of codes and the standard procedures to pass the management exam. It was one of my motivations to learn programming and create better solutions.
+
+
 
 ##Rules:
 ####There are 15 questions.
 ####Each question is presented in multiple choice format. Only one is the correct answer.
-####There are two 'lifelines'. Each lifeline can only be used once. 
+####There are two 'lifelines'. Each lifeline can only be used once.
 #####(1) 50/50	The computer will randomly remove two incorrect answers.
 #####(2) Ask your best friend *Google*. The current question will be automatically entered in the google search field as the key words.
 
@@ -28,11 +31,9 @@
 #####Q2-$200
 #####Q1-$100
 
-##Lists and explanations of the technologies used 
+##Lists and explanations of the technologies used
 
 ###HTML
 ###CSS
 ###JavaScript
 ###jQuery
-
-
