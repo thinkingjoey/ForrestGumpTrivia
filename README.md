@@ -2,7 +2,7 @@
 
 #Welcome to "The Ultimate Forrest Gump Movie Trivia"!
 
-!["screenshot of the game"](images/ScreenShot.png)
+!["screenshot of the game"](/images/ScreenShot.png)
 ####I built this project in a one week sprint with the skills that I learned in the first two weeks of the web development course. I was able to build an interactive quiz on Forrest Gump movie using HTML, CSS, JavaScript and jQuery. I chose this project because I wanted to learn how to make a fun interactive quiz for my trainees when I was working at my previous job as a training coordinator. I sympathized with my trainees when they have to memorize hundreds of codes and the standard procedures to pass the management exam. It was one of my motivations to learn programming and create better solutions.
 
 
