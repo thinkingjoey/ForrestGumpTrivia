@@ -18,7 +18,7 @@
 #####(2) Ask your best friend *Google*. The current question will be automatically entered in the google search field as the key words.
 
 
-##Lists and explanations of the technologies used 
+##Technologies:
 
 ###HTML
 ###CSS
